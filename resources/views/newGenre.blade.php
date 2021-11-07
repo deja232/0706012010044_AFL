@@ -2,11 +2,11 @@
 
 @section('title', 'Genre')
 
-<div class="container pt-5 text-light">
+
 @section('pagetitle', 'Add')
 
 @section('main_content')
-
+<div class="container pt-5 text-light">
     <div class="row">
         <div class="col">
             <form action="{{ route('genres.store') }}" method="post">
