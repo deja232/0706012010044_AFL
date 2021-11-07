@@ -1,0 +1,29 @@
+body {
+    background: url(/image/bg.png) fixed center no-repeat;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+    }
+.blkg{
+    width: 1250px;
+    height: 300px;
+    box-shadow:
+      inset 0 0 50px #fff,     
+      inset 20px 0 80px rgb(255, 8, 62),   
+      inset -20px 0 80px rgb(0, 0, 0),  
+      inset 20px 0 300px rgb(255, 8, 62),  
+      inset -20px 0 300px rgb(0, 0, 0), 
+      0 0 50px #fff,            
+      -10px 0 80px rgb(255, 8, 62),        
+      10px 0 80px rgb(0, 0, 0);
+    }
+    .bekgron{
+        box-shadow:
+          inset 0 0 50px #fff,     
+          inset 20px 0 80px rgb(255, 8, 62),   
+          inset -20px 0 80px rgb(0, 0, 0),  
+          inset 20px 0 300px rgb(255, 8, 62),  
+          inset -20px 0 300px rgb(0, 0, 0), 
+          0 0 50px #fff,            
+          -10px 0 80px rgb(255, 8, 62),        
+          10px 0 80px rgb(0, 0, 0);
+        }
