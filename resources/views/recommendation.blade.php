@@ -25,7 +25,7 @@
                 <div class="col">
                     <div class="card bg-black text-light">
                         <div class="card-header d-md-flex justify-content-center">{{$game['game']}}</div>
-                        <div class="card-bodyr d-md-flex justify-content-center">{{$game['description']}}</div>
+                        <div class="card-body d-md-flex justify-content-center">{{$game['description']}}</div>
                         <div class="card-footer "><a class="btn btn-danger d-md-flex justify-content-center" href="{{route('genres.show',$game->genre->genre_code)}}">{{$game->genre->genre_name}}</a></div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="col">
                     <div class="card bg-black text-light">
                         <div class="card-header d-md-flex justify-content-center">{{$game['game']}}</div>
-                        <div class="card-bodyr d-md-flex justify-content-center">{{$game['description']}}</div>
+                        <div class="card-body d-md-flex justify-content-center">{{$game['description']}}</div>
                         <div class="card-footer"><a class="btn btn-danger d-md-flex justify-content-center" href="{{route('genres.show',$game->genre->genre_code)}}">{{$game->genre->genre_name}}</a></div>
                     </div>
                 </div>
