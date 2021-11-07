@@ -14,7 +14,7 @@ class RekomCont extends Controller
     }
 
     public function index(){
-        $randomrecom = Game::all()->shuffle()->take(5);
+        $randomrecom = Game::all()->shuffle()->take(6);
         return view('recommendation', compact('randomrecom'),['title'=>'Recommendation']);
     }
 }

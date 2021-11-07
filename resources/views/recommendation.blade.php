@@ -8,7 +8,7 @@
 </h1>
 <div id="rekomen" class="carousel slide mt-4" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        @foreach ($randomrecom -> chunk(5) as $data)
+        @foreach ($randomrecom -> chunk(3) as $data)
         @if($loop ->first)
         <button type="button" data-bs-target="#rekomen" data-bs-slide-to=" {{$loop->index}} " class="active"></button>
         @else
@@ -17,7 +17,7 @@
         @endforeach
     </div>
     <div class="carousel-inner">
-        @foreach ($randomrecom -> chunk(5) as $data)
+        @foreach ($randomrecom -> chunk(3) as $data)
         @if($loop ->first)
         <div class="carousel-item active">
             <div class="row">
@@ -33,7 +33,7 @@
             </div>
         </div>
         @else
-        <div class="carousel-item active">
+        <div class="carousel-item">
             <div class="row">
                 @foreach ($data as $game)
                 <div class="col">
